@@ -653,7 +653,7 @@ MonoBehaviour:
   CellPrefab: {fileID: 1123520386511958, guid: 8ff8d6f7d809da946b7e625021f3ca47, type: 2}
   CellsCenter: {fileID: 257227794}
   CellOffset: {x: 2.1, y: 2.2}
-  Game: 1
+  Game: 0
 --- !u!1 &923174866
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,10 +710,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 59
     m_Alignment: 4
     m_AlignByGeometry: 0

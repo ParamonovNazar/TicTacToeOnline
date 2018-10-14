@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class GameProgress : MonoBehaviour
 {
-    private  uint curTurnPlayer;
+    private uint curTurnPlayer;
     private bool isPlaying=false;
 
     [SerializeField]
@@ -65,8 +65,6 @@ public class GameProgress : MonoBehaviour
     {
         PlayerTurn.text = "";
     }
-
-    
 
     public void ShowEndGame(GameEnd gameEnd)
     {

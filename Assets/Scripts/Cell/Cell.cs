@@ -27,7 +27,6 @@ public class Cell : MonoBehaviour, ICell
 
     private void OnMouseDown()
     {
-        Debug.Log("row: " + Row);
         PlayerController.Instance.TryChangeCell(Row, Column);
     }
 

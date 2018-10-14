@@ -17,7 +17,7 @@
                 {
                     int lengthOfSeq = 0;
 
-                    if (cells.GetLength(1) - col >= MinLenSeq&& cells.GetLength(0) - row >= MinLenSeq)
+                    if (cells.GetLength(1) - col >= MinLenSeq && cells.GetLength(0) - row >= MinLenSeq)
                     {
                         for (int i = 0; i < MinLenSeq; i++)
                         {
@@ -41,7 +41,7 @@
                     {
                         for (int i = 0; i < MinLenSeq; i++)
                         {
-                            if (cells[row + i, col - i].GetState() != state)
+                            if (cells[row + i, col - i].GetState() == state)
                             {
                                 lengthOfSeq++;
                             }
